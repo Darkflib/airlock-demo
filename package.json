@@ -9,6 +9,7 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "left-pad": "1.2.0"
+    "left-pad": "1.2.0",
+    "colorful-logs": "file:vendor/colorful-logs-2.0.1.tgz"
   }
 }
