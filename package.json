@@ -1,0 +1,14 @@
+{
+  "name": "status-api",
+  "version": "1.4.0",
+  "private": true,
+  "description": "Tiny service status endpoint (demo app for Airlock)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "left-pad": "1.2.0"
+  }
+}
