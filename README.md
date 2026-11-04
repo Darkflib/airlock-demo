@@ -7,3 +7,5 @@ npm install
 npm test
 npm start
 ```
+
+OMG! It's full of stars...
