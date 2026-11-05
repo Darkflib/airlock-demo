@@ -9,6 +9,7 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "left-pad": "1.2.0"
+    "left-pad": "1.2.0",
+    "tinystamp": "file:vendor/tinystamp-1.0.2.tgz"
   }
 }

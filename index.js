@@ -1,5 +1,6 @@
 const http = require('http');
 const leftPad = require('left-pad');
+const { stamp } = require('tinystamp');
 
 const started = Date.now();
 
@@ -13,7 +14,7 @@ if (require.main === module) {
   http.createServer((req, res) => {
     res.setHeader('content-type', 'application/json');
     res.end(JSON.stringify(status()));
-  }).listen(port, () => console.log(`status-api on :${port}`));
+  }).listen(port, () => console.log(stamp(`status-api on :${port}`)));
 }
 
 module.exports = { status };

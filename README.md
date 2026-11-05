@@ -17,3 +17,6 @@ npm install
 npm test
 npm start
 ```
+
+OMG! It's full of stars...
+Life is like a box of chocolates...
