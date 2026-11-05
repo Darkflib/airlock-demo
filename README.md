@@ -8,4 +8,4 @@ npm test
 npm start
 ```
 
-<!-- pinned images check 5 Nov -->
+<!-- access check 5 Nov -->
