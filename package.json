@@ -9,6 +9,7 @@
     "test": "node test.js"
   },
   "dependencies": {
-    "left-pad": "1.2.0"
+    "left-pad": "1.2.0",
+    "tinyconf": "file:vendor/tinyconf-2.3.0.tgz"
   }
 }
